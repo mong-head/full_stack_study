@@ -9,7 +9,7 @@
 
 ## maven
 
-- 1. 1개 생성해보기
+1. 1개 생성해보기
 
     생성 : file - new - project - maven project 
 
@@ -50,7 +50,7 @@
 
     - dependencies : (실습)mariadb jdbc maven 검색 후 2.72 버전 maven 복사 ([https://mvnrepository.com/artifact/org.mariadb.jdbc/mariadb-java-client/2.7.2](https://mvnrepository.com/artifact/org.mariadb.jdbc/mariadb-java-client/2.7.2))
     - build : ?
-- 2. multi projects
+2. multi projects
 
     maven 장점 : multi projects (native eclipse는 안됨 (?))
 
