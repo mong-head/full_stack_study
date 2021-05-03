@@ -409,42 +409,42 @@ exception 종류
 
 1) unchecked exception = error 
 
-logic error: 논리적인 이유로 나는 에러
+	logic error: 논리적인 이유로 나는 에러
 
-try-catch 안함 : 그냥 에러 고치는 식으로 함 (if-else문으로 해결)
+	try-catch 안함 : 그냥 에러 고치는 식으로 함 (if-else문으로 해결)
 
-ex) ArithmeticException, ArrayIndexOutOfBoundsException
+	ex) ArithmeticException, ArrayIndexOutOfBoundsException
 
 2) checked exception 
 
-try-catch 강제함 (boilerplate code 삽입 무조건 하게 함)
+	try-catch 강제함 (boilerplate code 삽입 무조건 하게 함)
 
-try-catch는 처리하는게 많음, logic error의 경우 쓰지 않는 것이 좋음
+	try-catch는 처리하는게 많음, logic error의 경우 쓰지 않는 것이 좋음
 
-ex) FileInputStream의 경우
+	ex) FileInputStream의 경우
 
-```java
-FileInputStream fis = null;
-try {
-	fis = new FileInputStream("./hello.txt");
-	int data = fis.read();
-	System.out.println(data);
-} catch (FileNotFoundException e) {
-	// TODO Auto-generated catch block
-	System.out.println("error:"+ e);
-	//e.printStackTrace();
-} catch (IOException e) {
-	System.out.println("error:"+ e);
-} finally {
+	```java
+	FileInputStream fis = null;
 	try {
-		if(fis!= null) {
-			fis.close();
-		}
+		fis = new FileInputStream("./hello.txt");
+		int data = fis.read();
+		System.out.println(data);
+	} catch (FileNotFoundException e) {
+		// TODO Auto-generated catch block
+		System.out.println("error:"+ e);
+		//e.printStackTrace();
 	} catch (IOException e) {
-		e.printStackTrace();
+		System.out.println("error:"+ e);
+	} finally {
+		try {
+			if(fis!= null) {
+				fis.close();
+			}
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
 	}
-}
-```
+	```
 
 예외처리 구문의 문제점
 
@@ -483,35 +483,13 @@ toString() #getClass()+@+hashCode()
 
 - network와 함께
 
-Input
+|Input|InputStream|program|OutputStream|Output
+|------|---|---|---|-----|
+|file| | | |file|
+|network| -> | | -> |network|
+|keyboard| | | |console|
+|memory| | | |memory|
 
-file
-
-network
-
-keyboard
-
-memory
-
-input stream
-
-→ read →
-
-program
-
-output stream
-
-→ write →
-
-Output
-
-file
-
-network
-
-console
-
-memory
 
 1. 추상 클래스의 역할 ( ⭐ )
 2. 주스트림 & 보조스트림 역할 ( ⭐ )
