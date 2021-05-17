@@ -1,5 +1,16 @@
 # 3. Linux
 
+## 목차
+[1. Linux](#1-linux)
+
+[2. CentOS설치 후 기본 설정](#2-centos설치-후-기본-설정)
+
+[3. server 기본 관리](#3-server-기본-관리)
+
+[4. Network관리](#4-network관리)
+
+[5. 파일시스템 관리](#5-파일시스템-관리)
+
 ### 설치
 
 [Java 설치](3_Linux_folder/Java_설치/readme.md)
@@ -16,23 +27,12 @@
 
 [vi editor](3_Linux_folder/vi_editor/readme.md)
 
-### Link
-[1. Linux](#1-linux)
-
-[2. CentOS설치 후 기본 설정](#2-centos설치-후-기본-설정)
-
-[3. server 기본 관리](#3-server-기본-관리)
-
-[4. Network관리](#4-network관리)
-
-[5. 파일시스템 관리](#5-파일시스템-관리)
 
 ### History
 
 [history text](3_Linux_folder/history_text/readme.md)
 
 ![3_Linux_folder/K-018.jpg](3_Linux_folder/K-018.jpg)
-
 
 
 # 1. Linux
