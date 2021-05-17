@@ -20,7 +20,7 @@
 
 [history text](3_Linux_folder/history_text/readme.md)
 
-![3 Linix folder/K-018.jpg](3 Linix folder/K-018.jpg)
+![3_Linux_folder/K-018.jpg](3_Linux_folder/K-018.jpg)
 
 # Linux
 

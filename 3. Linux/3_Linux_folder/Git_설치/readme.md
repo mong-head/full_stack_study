@@ -30,14 +30,14 @@
     pwd #/root/git-2.9.5
     ```
 
-5. configure 
+5. configure
 
     ```bash
     #C기반 특징
     ./configure --prefix=/usr/local/douzone2021/git #prefix : makefile만듦
     ```
 
-6. build 
+6. build
 
     ```bash
     #C기반 특징
