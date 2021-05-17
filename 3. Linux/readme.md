@@ -265,7 +265,7 @@ root로는 못들어가게 막음; webmaster계정으로 들어가야함.
     - 인증 : 사용자, 그룹
     - 권한 : 사용자
 
-useradd
+### useradd
 
 ```bash
 #webmaster로 로그인
@@ -285,14 +285,14 @@ cat /etc/passwd #user 정보 확인
 cat /etc/group #group 확인
 ```
 
-passwd
+### passwd
 
 ```bash
 passwd user1 #user1의 비번 재설정
 cat /etc/shadow #비번 암호화되어 저장되어있음
 ```
 
-userdel
+### userdel
 
 ```bash
 userdel -r user1 #-r을 줘야 home directory에서 삭제
@@ -304,7 +304,7 @@ rm -fr /home/user2 #directory삭제, rf option : 조용히 삭제
 ls -l /home #삭제 후 확인은 필수
 ```
 
-group
+### group
 
 - 보안 : 인증 + 권한
     - group은 인증대상X; password없음
@@ -318,7 +318,7 @@ groupdel group1
 groups webmaster #webmaster가 어느 그룹에 있는 지
 ```
 
-su
+### su
 
 ```bash
 #webmaster login (webmaster shell $)
@@ -334,7 +334,7 @@ exit #shell 나오기(wehmaster shell로 감)
 last
 ```
 
-directory 관리
+### directory 관리
 
 ```bash
 pwd #현재 directory
@@ -348,7 +348,7 @@ rm -r dir1 #dir1 하위 모두 지워버리고, dir1까지 지움; 보통 디렉
 cd ~webmaster #webmaster의 home directory이동
 ```
 
-file 관리
+### file 관리
 
 - ls -al하면 나오는 파일 정보
 
@@ -459,7 +459,7 @@ touch *.c
 make #수정사항없어도 다시 컴파일해줌
 ```
 
-파일 압축 관리 ( ⭐ )
+### 파일 압축 관리 ( ⭐ )
 
 - archiving
 - /dir --tar cvf--> dir.tar --gzip--> div.tar.gz
