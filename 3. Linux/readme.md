@@ -488,7 +488,7 @@ gzip -d webmaster.tar.gz #decompress ->webmaster.tar
 
 # 4. Network관리
 
-ping (TCP/IP가 아닌 ICMP 에 있음)
+### ping (TCP/IP가 아닌 ICMP 에 있음)
 
 - ping이 안될 때 : ping을 일부러 막아놓기도 함
     - ping 공격 막기 위함
@@ -526,7 +526,7 @@ net.ipv4.icmp_echo_ignore_all = 1
 ########################
 ```
 
-nslookup
+### nslookup
 
 ```bash
 nslookup www.google.com
@@ -540,7 +540,7 @@ nameserver 168.126.63.2
 
 ```
 
-hostname
+### hostname
 
 - 별칭 목록
 - hostname ≠ domain name
@@ -579,7 +579,7 @@ ping lx01.monghead.com
 ################################
 ```
 
-nestat
+### nestat
 
 ```bash
 netstat -r
@@ -591,7 +591,7 @@ netstat -a | grep 8080
 netstat -anpt | grep LISTEN #열린 TCP포트와 포트의 프로세스 출력
 ```
 
-ifconfig
+### ifconfig
 
 ```bash
 #랜카드 / 이더넷 카드 확인
@@ -603,7 +603,7 @@ ifconfig enp0s3
 #ifconfig enp0s3 up
 ```
 
-고정IP 설정
+### 고정IP 설정
 
 ```bash
 #vi /etc/sysconfig/network-scripts/ifcfg-enp0s3
@@ -699,7 +699,7 @@ linux : C기반 - process는 task_strut 구조체로 관리됨
 
 ### (3) 관리 명령어
 
-ps
+#### ps
 
 - option 조합
     - aux : 다른 사용자 프로세스(a)와 터미널과 연결되지 않은 프로세스(x)의 자세한 정보 출력(u)
@@ -733,11 +733,11 @@ ps
         - 자세한 정보 : UID, PID,PPID,TTY(연결된 터미널),TIME(총 실행시간),C(CPU사용량), CMD(command-명령)
         - grep이랑 함께 사용하여 현재 돌아가고 있는 프로그램 정보를 알 수 있음
 
-pstree
+#### pstree
 
 - process 정보를 트리형태로 보여줌
 
-top
+#### top
 
 - 실시간 모니터링 of process CPU,memory 사용량
 - load : 실행 큐와 프로세스 테이블 관련
@@ -745,12 +745,12 @@ top
 - load average : 현재 시스템이 얼마나 일을 하는 지
 - interrupt
 
-kill
+#### kill
 
 - process에게 signal 보냄
 - kill -9 (PID) : 해당 PID 프로세스 죽임
 
-free
+#### free
 
 - 시스템 메모리 정보 출력
 - 사용가능한 메모리 확인 가능
