@@ -2,23 +2,23 @@
 
 # 설치
 
-[Java 설치](3_Linux_folder/Java_설치.md)
+[Java 설치](3_Linux_folder/Java_설치/readme.md)
 
-[Tomcat 설치](3_Linux_folder/Tomcat_설치.md)
+[Tomcat 설치](3_Linux_folder/Tomcat_설치/readme.md)
 
-[Git 설치 (2.9.5)](3_Linux_folder/Git_설치.md)
+[Git 설치 (2.9.5)](3_Linux_folder/Git_설치/readme.md)
 
-[Maven 설치](3_Linux_folder/Maven_설치.md)
+[Maven 설치](3_Linux_folder/Maven_설치/readme.md)
 
-[MariaDB 설치](3_Linux_folder/MariaDB_설치.md)
+[MariaDB 설치](3_Linux_folder/MariaDB_설치/readme.md)
 
 # vi editor
 
-[vi editor](3_Linux_folder/vi_editor.md)
+[vi editor](3_Linux_folder/vi_editor/readme.md)
 
 ### History
 
-[history text](3_Linux_folder/history_text.md)
+[history text](3_Linux_folder/history_text/readme.md)
 
 ![3 Linix folder/K-018.jpg](3 Linix folder/K-018.jpg)
 

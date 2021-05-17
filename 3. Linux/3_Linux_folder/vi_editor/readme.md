@@ -4,7 +4,7 @@
 
 저장 후 종료 : Esc ) ZZ
 
-![vi%20editor%20982eb80ad933497ab9efce47f09059a2/Untitled.png](vi%20editor%20982eb80ad933497ab9efce47f09059a2/Untitled.png)
+![vi%20editor%20982eb80ad933497ab9efce47f09059a2/Untitled.png](vi_editor_folder/Untitled.png)
 
 ### 명령어
 
@@ -36,7 +36,7 @@ w : 단어 이동
 
 (삭제)
 
-x : 하나 삭제 
+x : 하나 삭제
 
 (3x : 현재 위치에서 3개 삭제 - 잘안씀)
 
