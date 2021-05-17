@@ -1,6 +1,6 @@
 # 3. Linux
 
-# 설치
+### 설치
 
 [Java 설치](3_Linux_folder/Java_설치/readme.md)
 
@@ -12,9 +12,16 @@
 
 [MariaDB 설치](3_Linux_folder/MariaDB_설치/readme.md)
 
-# vi editor
+### vi editor
 
 [vi editor](3_Linux_folder/vi_editor/readme.md)
+
+### Link
+[1. Linux](# 1. Linux)
+[2. CentOS설치 후 기본 설정관련](# 2. CentOS설치 후 기본 설정관련)
+[3. server 기본 관리](# 3. server 기본 관리)
+[4. Network관리](# 4. Network관리)
+[5. 파일시스템 관리](# 5. 파일시스템 관리)
 
 ### History
 
@@ -22,11 +29,13 @@
 
 ![3_Linux_folder/K-018.jpg](3_Linux_folder/K-018.jpg)
 
-# Linux
+
+
+# 1. Linux
 
 GNU 정신; (자유) 누구나 자유롭게 실행, 복사, 수정 및 배포 가능
 
-## 종류
+## 1-1) 종류
 
 Debian
 
@@ -41,7 +50,7 @@ RedHat
     - CentOS - 많이 씀
 - 서버용으로 많이 사용; desktop은 약함
 
-## 구조
+## 1-2) 구조
 
 ### Kernel ( = OS )
 
@@ -57,7 +66,7 @@ shell script ;  user가 명령어를 칠 때, OS에게 그 명령을 전달해�
 
 user 창 : $
 
-## Linux partition
+## 1-3) Linux partition
 
 ![3_Linux_folder/Untitled.png](3_Linux_folder/Untitled.png)
 
@@ -69,7 +78,7 @@ Linux : 디스크 간에 파일명 같은게 있으면 안됨
 - swap : 총 용량의 2배 (2048로 총용량 잡았으면, 2048 * 2 = 4096)
 - 나머지 : 나머지 용량
 
-# CentOS설치 후 기본 설정관련
+# 2. CentOS설치 후 기본 설정관련
 
 - on premiese : 직접 내가 필요한 소프트웨어 설치
     - cf) cloud : 알아서 설치되어 있음 (Paas, Saas, IaaS)
@@ -86,7 +95,7 @@ linux 관리자 : 소프트웨어 보안, 네트워크 보안, 시스템 보안 
 application 관리자 : 어플리케이션 보안
 ```
 
-### 기본 정보
+### 2-1) 기본 정보
 
 ```bash
 ** 기본 정보 확인 **
@@ -137,7 +146,7 @@ root로 계정변경 ( - : root 계정 설정으로 바꿈)
 # ls
 ```
 
-### 설정 및 설치
+### 2-2) 설정 및 설치
 
 ```
 <설정 3가지>
@@ -225,7 +234,7 @@ cf ) systemctl - 많이 사용함.
 
 ```
 
-### Terminal
+### 2-3) Terminal
 
 ![3_Linux_folder/Untitled%201.png](3_Linux_folder/Untitled%201.png)
 
@@ -239,7 +248,7 @@ Remote Terminal : Internet으로 sshd server와 연결, 인터넷 통신이기�
 
 ARP  ; 공인망 ↔ 사설망 ; Gateway 역할도 함
 
-# server 기본 관리
+# 3. server 기본 관리
 
 root로는 못들어가게 막음; webmaster계정으로 들어가야함.
 
@@ -464,7 +473,7 @@ gzip webmaster.tar #webmaster.tar.gz
 gzip -d webmaster.tar.gz #decompress ->webmaster.tar
 ```
 
-# Network관리
+# 4. Network관리
 
 ping (TCP/IP가 아닌 ICMP 에 있음)
 
@@ -605,9 +614,9 @@ systemctl status network
 ifconfig www.google.com
 ```
 
-# 파일시스템 관리
+# 5. 파일시스템 관리
 
-## 파일 시스템
+## 5-1) 파일 시스템
 
 / (루트) : 최상위 단 - 이 아래에 파일 만드는 것은 별로 안좋음
 
@@ -642,9 +651,9 @@ ifconfig www.google.com
     - /lib : 라이브라리
     - /include : 헤더파일
 
-## process
+## 5-2) process
 
-### 1) process : 자료구조로 존재
+### (1) process : 자료구조로 존재
 
 linux : C기반 - process는 task_strut 구조체로 관리됨
 
@@ -661,7 +670,7 @@ linux : C기반 - process는 task_strut 구조체로 관리됨
         - cf ) tomcat context? tomcat은 WAS기반, context는 어플리케이션의 정보의미
         - cf ) Spring context
 
-### 2) status
+### (2) status
 
 ![3_Linux_folder/Untitled%206.png](3_Linux_folder/Untitled%206.png)
 
@@ -675,7 +684,7 @@ linux : C기반 - process는 task_strut 구조체로 관리됨
     }
     ```
 
-### 3) 관리 명령어
+### (3) 관리 명령어
 
 ps
 
