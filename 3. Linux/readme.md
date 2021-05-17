@@ -11,7 +11,10 @@
 
 [5. 파일시스템 관리](#5-파일시스템-관리)
 
-### 설치
+
+
+
+## 설치
 
 [Java 설치](3_Linux_folder/Java_설치/readme.md)
 
@@ -23,9 +26,14 @@
 
 [MariaDB 설치](3_Linux_folder/MariaDB_설치/readme.md)
 
-### vi editor
+
+
+
+## vi editor
 
 [vi editor](3_Linux_folder/vi_editor/readme.md)
+
+
 
 
 ### History
@@ -33,6 +41,8 @@
 [history text](3_Linux_folder/history_text/readme.md)
 
 ![3_Linux_folder/K-018.jpg](3_Linux_folder/K-018.jpg)
+
+
 
 
 # 1. Linux
