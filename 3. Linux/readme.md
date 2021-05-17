@@ -36,18 +36,17 @@
 
 
 
-### History
+
+# 1. Linux
+
+GNU 정신; (자유) 누구나 자유롭게 실행, 복사, 수정 및 배포 가능
+
+## 1-0) History
 
 [history text](3_Linux_folder/history_text/readme.md)
 
 ![3_Linux_folder/K-018.jpg](3_Linux_folder/K-018.jpg)
 
-
-
-
-# 1. Linux
-
-GNU 정신; (자유) 누구나 자유롭게 실행, 복사, 수정 및 배포 가능
 
 ## 1-1) 종류
 
