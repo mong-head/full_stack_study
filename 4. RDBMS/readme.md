@@ -97,13 +97,13 @@
 
 ## 1-3. RDB
 
-![4_rdbms_folder/Untitled%201.png](4_rdbms_folder/Untitled%201.png)
+<img src="4_rdbms_folder/Untitled%201.png" width="60%">
 
 (왼) 논리 데이터 모델링 (오) 물리적 DB
 
 ### (1) ERD
 
-![4_rdbms_folder/Untitled%202.png](4_rdbms_folder/Untitled%202.png)
+<img src="4_rdbms_folder/Untitled%202.png"  width="60%">
 
 1:1 : 하나가 다른 하나의 속성일 경우가 많음
 
@@ -120,9 +120,9 @@ MySQL기반으로 탄생 (MySQL이 Oracle로 합병된 후 탄생)
 
 ### client program
 
-![4_rdbms_folder/Untitled%203.png](4_rdbms_folder/Untitled%203.png)
+<img src="4_rdbms_folder/Untitled%203.png"  width="60%">
 
-![4_rdbms_folder/Untitled%204.png](4_rdbms_folder/Untitled%204.png)
+<img src="4_rdbms_folder/Untitled%204.png"  width="60%">
 
 - 리눅스 서버 로컬에서 접근계정과 클라이언트로 접근하는 계정 2개에 대한 접근 설정해야함.
 
@@ -256,7 +256,7 @@ java에서 여러 쿼리문(개별의 select를 여러개)을 사용하기 보�
     - eXERD 사용
 - example : 음원 검색 데이터베이스 설계?
 
-    ![4_rdbms_folder/Untitled%205.png](4_rdbms_folder/Untitled%205.png)
+    <img src="4_rdbms_folder/Untitled%205.png](4_rdbms_folder/Untitled%205.png"  width="60%">
 
 ## 3-1. Data model
 
@@ -271,7 +271,7 @@ java에서 여러 쿼리문(개별의 select를 여러개)을 사용하기 보�
 - 너무 많이 생각하지 말고 일단 모국어로 시작하기
     - example 1단계 설계
 
-        ![4_rdbms_folder/K-030.jpg](4_rdbms_folder/K-030.jpg)
+        <img src="4_rdbms_folder/K-030.jpg](4_rdbms_folder/K-030.jpg" width="60%">
 
 - 방법
     1. entitiy 생각
@@ -293,7 +293,7 @@ java에서 여러 쿼리문(개별의 select를 여러개)을 사용하기 보�
         - "앨범"에 노래가 있게 되는 경우, 즉, 하나의 칼럼에 하나의 노래가 들어갈 경우 다른 칼럼들(가수이름,타이틀등)의 중복이 발생
         - "노래"칼럼이 빠져야 함 → 다른 테이블로 나옴과 동시에 "relation"이 필요하게 됨
 
-            ![4_rdbms_folder/K-031.jpg](4_rdbms_folder/K-031.jpg)
+            <img src="4_rdbms_folder/K-031.jpg](4_rdbms_folder/K-031.jpg" width="60%">
 
 - 유일한 식별자
     - 모든 테이블은 식별가능한 유일하고 null이 아닌 Primary Key를 가져야 함.
@@ -301,7 +301,7 @@ java에서 여러 쿼리문(개별의 select를 여러개)을 사용하기 보�
     - 인위적으로 만드는 것이 좋음
         - example : PK 가지도록
 
-            ![4_rdbms_folder/K-033.jpg](4_rdbms_folder/K-033.jpg)
+            <img src="4_rdbms_folder/K-033.jpg" width="60%">
 
 - relation
     - 1 : 1 인지, 1 : N 인지 N : M 인지
@@ -317,11 +317,11 @@ java에서 여러 쿼리문(개별의 select를 여러개)을 사용하기 보�
         - 많음
         - FK는 그냥 FK; 일반 칼럼으로 사용될 때
 
-            ![4_rdbms_folder/K-019.jpg](4_rdbms_folder/K-019.jpg)
+            <img src="4_rdbms_folder/K-019.jpg" width="60%">
 
             - example
 
-                ![4_rdbms_folder/K-022.jpg](4_rdbms_folder/K-022.jpg)
+                <img src="4_rdbms_folder/K-022.jpg" width="60%">
 
 ### 2) 제 2 정규화
 
@@ -330,16 +330,16 @@ java에서 여러 쿼리문(개별의 select를 여러개)을 사용하기 보�
         - 가수와 배급사는 "앨범"에 종속적이지 않음
             - 하나의 앨범에 아이유가 있고, 다른 앨범에도 아이유가 있을 수 있다.
 
-                ![4_rdbms_folder/K-023.jpg](4_rdbms_folder/K-023.jpg)
+                <img src="4_rdbms_folder/K-023.jpg" width="60%">
 
             - 정규화와 관계없이 N : M 관계는 1 : N 으로 만들어야 함
                 - 중간 테이블을 임의로 만든 경우 ( 비즈니스 X )
 
-                    ![4_rdbms_folder/K-030%201.jpg](4_rdbms_folder/K-030%201.jpg)
+                    <img src="4_rdbms_folder/K-030%201.jpg" width="60%">
 
                 - 가수_앨범을 대신할 수 있는 테이블 존재 : "노래" 테이블 ( 비즈니스 O - good)
 
-                    ![4_rdbms_folder/K-031%201.jpg](4_rdbms_folder/K-031%201.jpg)
+                    <img src="4_rdbms_folder/K-031%201.jpg" width="60%">
 
 ### 3) 제 3 정규형
 
@@ -348,12 +348,12 @@ java에서 여러 쿼리문(개별의 select를 여러개)을 사용하기 보�
     - example
         - "노래"에 "장르"를 넣고 싶어 넣게 됨. "장르 약어"도 함께 넣고 싶어짐
 
-            ![4_rdbms_folder/K-032.jpg](4_rdbms_folder/K-032.jpg)
+            <img src="4_rdbms_folder/K-032.jpg" width="60%">
 
             - "장르 약어"의 경우 "노래"에 종속적인 것이 아닌 "장르"에 종속적임.
         - 노래 와 장르는 N : M 관계 - 중간테이블 생성
 
-            ![4_rdbms_folder/K-033%201.jpg](4_rdbms_folder/K-033%201.jpg)
+            <img src="4_rdbms_folder/K-033%201.jpg" width="60%">
 
 ## 3-3. Denormalization
 
@@ -369,9 +369,9 @@ java에서 여러 쿼리문(개별의 select를 여러개)을 사용하기 보�
 - modeling tool → foward engineering
     - jdbc driver 위치 : 'C:\Users\'user name'\.m2\repository\org\mariadb\jdbc\mariadb-java-client\2.7.2\'
 
-    ![4_rdbms_folder/K-035.jpg](4_rdbms_folder/K-035.jpg)
+    <img src="4_rdbms_folder/K-035.jpg" width="60%">
 
-    ![4_rdbms_folder/K-036.jpg](4_rdbms_folder/K-036.jpg)
+    <img src="4_rdbms_folder/K-036.jpg" width="60%">
 
 과제 : 온라인 쇼핑몰 데이터 아키텍쳐 설계
 
@@ -385,7 +385,7 @@ java에서 여러 쿼리문(개별의 select를 여러개)을 사용하기 보�
 - SQL - programming language 통합 접근
 - 원하는 DB에 연결
 
-![4_rdbms_folder/Untitled%206.png](4_rdbms_folder/Untitled%206.png)
+<img src="4_rdbms_folder/Untitled%206.png" width="60%">
 
 - JDBC API : 여러 interface 존재
     - connect(), statement(), ResultSet()
@@ -527,4 +527,4 @@ java에서 여러 쿼리문(개별의 select를 여러개)을 사용하기 보�
 
 - DAO
 
-![4_rdbms_folder/Untitled%207.png](4_rdbms_folder/Untitled%207.png)
+<img src="4_rdbms_folder/Untitled%207.png" width="60%">
