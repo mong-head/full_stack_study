@@ -148,7 +148,7 @@ flush privileges;
 
 ### 4) window client 생성
 
-![Server_Cleint_folder/K-017.jpg](K-017.jpg)
+<img src="K-017.jpg" width="60%">
 
 리눅스 IP 적기
 
@@ -157,7 +157,7 @@ flush privileges;
 - 비즈니스 분석 및 데이터 설계도 한 눈에 볼 수 있음
 - workbench : databases - reverse engineering - 연결하기
 
-![Server_Cleint_folder/K-018.jpg](K-018.jpg)
+<img src="K-018.jpg" width="60%">
 
 - employees : salaries or titles = 1:n
     - 사원이 연봉이 변하는 것 모두 저장(기간마다 저장)
@@ -165,4 +165,4 @@ flush privileges;
 - departments와 employees는 기본적으로 다대다 관계
     - 중간 테이블 생성 : 중간에 dept_emp 라는 테이블을 놔두게 됨
 
-        ![Server_Cleint_folder/Untitled.png](Untitled.png)
+        <img src="Untitled.png" width="60%">

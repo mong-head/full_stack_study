@@ -256,7 +256,7 @@ java에서 여러 쿼리문(개별의 select를 여러개)을 사용하기 보�
     - eXERD 사용
 - example : 음원 검색 데이터베이스 설계?
 
-    <img src="4_rdbms_folder/Untitled%205.png](4_rdbms_folder/Untitled%205.png"  width="60%">
+    <img src="4_rdbms_folder/Untitled%205.png"  width="60%">
 
 ## 3-1. Data model
 
@@ -271,7 +271,7 @@ java에서 여러 쿼리문(개별의 select를 여러개)을 사용하기 보�
 - 너무 많이 생각하지 말고 일단 모국어로 시작하기
     - example 1단계 설계
 
-        <img src="4_rdbms_folder/K-030.jpg](4_rdbms_folder/K-030.jpg" width="60%">
+        <img src="4_rdbms_folder/K-030.jpg" width="60%">
 
 - 방법
     1. entitiy 생각
@@ -293,7 +293,7 @@ java에서 여러 쿼리문(개별의 select를 여러개)을 사용하기 보�
         - "앨범"에 노래가 있게 되는 경우, 즉, 하나의 칼럼에 하나의 노래가 들어갈 경우 다른 칼럼들(가수이름,타이틀등)의 중복이 발생
         - "노래"칼럼이 빠져야 함 → 다른 테이블로 나옴과 동시에 "relation"이 필요하게 됨
 
-            <img src="4_rdbms_folder/K-031.jpg](4_rdbms_folder/K-031.jpg" width="60%">
+            <img src="4_rdbms_folder/K-031.jpg" width="60%">
 
 - 유일한 식별자
     - 모든 테이블은 식별가능한 유일하고 null이 아닌 Primary Key를 가져야 함.
