@@ -147,9 +147,7 @@ MySQL기반으로 탄생 (MySQL이 Oracle로 합병된 후 탄생)
 
 ## 2-1. DML
 
-### (1) 기본  및 집계
-
-([기본](https://github.com/mong-head/mariadb_practices/blob/master/src/site/employees/01_basic_select.sql)
+### (1) 기본  및 집계 ([code](https://github.com/mong-head/mariadb_practices/blob/master/src/site/employees/01_basic_select.sql))
 
 - query 실행 순서
     1. from : 접근 테이블 확인
