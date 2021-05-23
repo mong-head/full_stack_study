@@ -6,7 +6,7 @@
 
 [2. SQL](#2-sql)
 
-[3. Database Design](#3-data-design-/-database-modeling)
+[3. Database Design](#3-database-modeling)
 
 [4. DB Programming(JDBC)](#4-DB-programming)
 
@@ -66,7 +66,7 @@
     - 공유 : 여러 사람이 동일한 데이터에 접근 및 이용 가능
 - 효율적으로 실시간으로 저장, 검색, 갱신 가능해야함
 
-<img src="4_rdbms_folder/Untitled.png" width="500" height="300">
+<img src="4_rdbms_folder/Untitled.png" width="60%">
 
 ## 1-2. DBMS
 
@@ -248,7 +248,7 @@ PK, FK 값의 연관 (1 : n 관계)
 
 java에서 여러 쿼리문(개별의 select를 여러개)을 사용하기 보다 하나의 결과값을 위한 것이라면 subquery를 사용해 한 문장의 sql문으로 만드는 것이 좋다.
 
-# 3. Data Design / Database modeling
+# 3. Database modeling
 
 - 중복성 제거 위함
 - 정규화(normalization; 데이터 설계시 원칙) 1~5단계
