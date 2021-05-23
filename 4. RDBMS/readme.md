@@ -369,7 +369,7 @@ java에서 여러 쿼리문(개별의 select를 여러개)을 사용하기 보�
 - modeling tool → foward engineering
     - jdbc driver 위치 : 'C:\Users\'user name'\.m2\repository\org\mariadb\jdbc\mariadb-java-client\2.7.2\'
 
-    <img src="4_rdbms_folder/K-035.jpg" width="60%">
+    <img src="4_rdbms_folder/K-035.jpg" width="30%">
 
     <img src="4_rdbms_folder/K-036.jpg" width="60%">
 
