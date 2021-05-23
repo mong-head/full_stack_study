@@ -271,7 +271,7 @@ java에서 여러 쿼리문(개별의 select를 여러개)을 사용하기 보�
 - 너무 많이 생각하지 말고 일단 모국어로 시작하기
     - example 1단계 설계
 
-        <img src="4_rdbms_folder/K-030.jpg" width="30%">
+        <img src="4_rdbms_folder/K-030.jpg" width="20%">
 
 - 방법
     1. entitiy 생각
@@ -293,7 +293,7 @@ java에서 여러 쿼리문(개별의 select를 여러개)을 사용하기 보�
         - "앨범"에 노래가 있게 되는 경우, 즉, 하나의 칼럼에 하나의 노래가 들어갈 경우 다른 칼럼들(가수이름,타이틀등)의 중복이 발생
         - "노래"칼럼이 빠져야 함 → 다른 테이블로 나옴과 동시에 "relation"이 필요하게 됨
 
-            <img src="4_rdbms_folder/K-031.jpg" width="60%">
+            <img src="4_rdbms_folder/K-031.jpg" width="30%">
 
 - 유일한 식별자
     - 모든 테이블은 식별가능한 유일하고 null이 아닌 Primary Key를 가져야 함.
@@ -301,7 +301,7 @@ java에서 여러 쿼리문(개별의 select를 여러개)을 사용하기 보�
     - 인위적으로 만드는 것이 좋음
         - example : PK 가지도록
 
-            <img src="4_rdbms_folder/K-033.jpg" width="60%">
+            <img src="4_rdbms_folder/K-033.jpg" width="30%">
 
 - relation
     - 1 : 1 인지, 1 : N 인지 N : M 인지
@@ -317,7 +317,7 @@ java에서 여러 쿼리문(개별의 select를 여러개)을 사용하기 보�
         - 많음
         - FK는 그냥 FK; 일반 칼럼으로 사용될 때
 
-            <img src="4_rdbms_folder/K-019.jpg" width="60%">
+            <img src="4_rdbms_folder/K-019.jpg" width="30%">
 
             - example
 
