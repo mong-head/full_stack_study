@@ -271,7 +271,7 @@ java에서 여러 쿼리문(개별의 select를 여러개)을 사용하기 보�
 - 너무 많이 생각하지 말고 일단 모국어로 시작하기
     - example 1단계 설계
 
-        <img src="4_rdbms_folder/K-030.jpg" width="60%">
+        <img src="4_rdbms_folder/K-030.jpg" width="30%">
 
 - 방법
     1. entitiy 생각
