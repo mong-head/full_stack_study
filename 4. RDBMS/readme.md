@@ -2,13 +2,13 @@
 
 ## 목차
 
-[1. RDB 개요](#1.-rdb-개요)
+[1. RDB 개요](#1-rdb-개요)
 
-[2. SQL](#2.-sql)
+[2. SQL](#2-sql)
 
-[3. Database Design](3.-data-design-/-database-modeling)
+[3. Database Design](#3-data-design-/-database-modeling)
 
-[4. DB Programming(JDBC)](#4.-DB-programming)
+[4. DB Programming(JDBC)](#4-DB-programming)
 
 ---
 
@@ -66,7 +66,7 @@
     - 공유 : 여러 사람이 동일한 데이터에 접근 및 이용 가능
 - 효율적으로 실시간으로 저장, 검색, 갱신 가능해야함
 
-![4_rdbms_folder/Untitled.png](4_rdbms_folder/Untitled.png)
+<img src="4_rdbms_folder/Untitled.png" width="500" height="300">
 
 ## 1-2. DBMS
 
