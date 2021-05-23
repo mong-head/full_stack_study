@@ -16,9 +16,11 @@
 
 - linux(centOS) mariadb 사용
 
+---
+
 ### code
 
-- [SQL and JDBC practices]([https://github.com/mong-head/mariadb_practices](https://github.com/mong-head/mariadb_practices))
+- [SQL and JDBC practices](https://github.com/mong-head/mariadb_practices)
 
 ---
 
