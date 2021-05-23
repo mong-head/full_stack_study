@@ -165,4 +165,4 @@ flush privileges;
 - departments와 employees는 기본적으로 다대다 관계
     - 중간 테이블 생성 : 중간에 dept_emp 라는 테이블을 놔두게 됨
 
-        <img src="Untitled.png" width="60%">
+        <img src="Untitled.png" width="60%" height="60%">
