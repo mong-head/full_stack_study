@@ -128,7 +128,7 @@ MySQL기반으로 탄생 (MySQL이 Oracle로 합병된 후 탄생)
 
 - 리눅스 서버 로컬에서 접근계정과 클라이언트로 접근하는 계정 2개에 대한 접근 설정해야함.
 
-[Server & Client 기본 설정](4_rdbms_folder/Server_Client_folder/readme.md)
+- [Server & Client 기본 설정](4_rdbms_folder/Server_Client_folder/readme.md)
 
 # 2. SQL
 
