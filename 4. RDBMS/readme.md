@@ -122,7 +122,7 @@ MySQL기반으로 탄생 (MySQL이 Oracle로 합병된 후 탄생)
 
 ### client program
 
-<img src="4_rdbms_folder/Untitled%203.png"  width="60%">
+<img src="4_rdbms_folder/Untitled%203.png"  width="40%">
 
 <img src="4_rdbms_folder/Untitled%204.png"  width="60%">
 
@@ -256,7 +256,7 @@ java에서 여러 쿼리문(개별의 select를 여러개)을 사용하기 보�
     - eXERD 사용
 - example : 음원 검색 데이터베이스 설계?
 
-    <img src="4_rdbms_folder/Untitled%205.png"  width="60%">
+    <img src="4_rdbms_folder/Untitled%205.png"  width="40%">
 
 ## 3-1. Data model
 
@@ -321,7 +321,7 @@ java에서 여러 쿼리문(개별의 select를 여러개)을 사용하기 보�
 
             - example
 
-                <img src="4_rdbms_folder/K-022.jpg" width="60%">
+                <img src="4_rdbms_folder/K-022.jpg" width="30%">
 
 ### 2) 제 2 정규화
 
